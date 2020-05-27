@@ -34,7 +34,7 @@
 //         service: 'Gmail', // Como mencionei, vamos usar o Gmail
 //         auth: {
 //             user: 'evercosta@gmail.com', // Basta dizer qual o nosso usuário
-//             pass: 'hospitalincor1'             // e a senha da nossa conta
+//             pass: ''             // e a senha da nossa conta
 //         } 
 //     });
     
