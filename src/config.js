@@ -1,7 +1,7 @@
 // criação de variaveis globais no node
 global.SALT_KEY = 'f5b99242-6504-4ca3-90f2-05e78e5761ef';
 global.EMAIL_TMPL = '<p>Olá <strong>{0}</strong>, ' +
-    'seja bem vindo ao Sistema Teste de Produtos!</p>' + 
+    'seu perfil foi criado agora!</p>' + 
     '<p>Sua senha é <strong>{1}</strong>.</p>';
 
 module.exports = {
