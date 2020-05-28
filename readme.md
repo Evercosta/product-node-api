@@ -93,11 +93,8 @@ npm i http express debug --save
 - npm i md5 --save
 - importar no customer-controller
 
-# Send grid
-- meio de enviar email sem cair em blacklist
-
 # Criar service para envio de email
-- npm i sendgrid@2.0.0 --save
+- npm i nodemailer --save
 - importa-lo no customer controller para utilizar
 
 # Criar as rotas de order
