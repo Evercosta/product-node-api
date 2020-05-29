@@ -127,3 +127,5 @@ npm i http express debug --save
 - criar arquivo pdf para armazenar
 - instalar o html-pdf
 
+# Instalar o ejs
+- criar aquivo ejs com html para usar de template de PDF
