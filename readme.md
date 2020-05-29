@@ -122,3 +122,8 @@ npm i http express debug --save
 - no arquivo app
 
 # Habilitar o cors no app
+
+# PDF
+- criar arquivo pdf para armazenar
+- instalar o html-pdf
+

@@ -21,6 +21,7 @@ const indexRoute = require('./routes/index-route');
 const productRoute = require('./routes/product-route');
 const customerRoute = require('./routes/customer-route');
 const orderRoute = require('./routes/order-route');
+const pdfRoute = require('./routes/pdf-route');
 
 // converter o body com o bodyParser
 app.use(bodyParser.json({
@@ -45,5 +46,6 @@ app.use('/', indexRoute);
 app.use('/products', productRoute);
 app.use('/customers', customerRoute);
 app.use('/orders', orderRoute);
+app.use('/pdf', pdfRoute)
 
 module.exports = app;
